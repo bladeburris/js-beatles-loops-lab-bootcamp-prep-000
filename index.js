@@ -15,6 +15,7 @@ function johnLennonFacts(facts) {
   while (n < facts.length) {
     var newString = facts[0] + "!!!"
     newArray.push(newString)
+    n++
   }
   return newArray
 }
